@@ -3,12 +3,7 @@ import id.ac.ui.cs.advprog.heymart.model.Supermarket;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import id.ac.ui.cs.advprog.heymart.repository.UserRepository;
 import id.ac.ui.cs.advprog.heymart.model.User;
-import id.ac.ui.cs.advprog.heymart.model.Balance;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Optional;
 
 @Repository
 public class BalanceRepository {
