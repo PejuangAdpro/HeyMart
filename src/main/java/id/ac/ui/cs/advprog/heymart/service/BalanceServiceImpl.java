@@ -20,10 +20,4 @@ public class BalanceServiceImpl implements BalanceService{
         return balanceRepository.decrementShopBalance(id, amount);
     }
 
-    @Override
-    public boolean checkoutUpdate(String username, Long shopId, double amount) {
-        balanceRepository.incrementShopBalance(shopId, amount);
-        balanceRepository.decrementUserBalance(username,amount);
-        return true;
-    }
 }
